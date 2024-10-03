@@ -6,11 +6,27 @@
 #include<iostream>
 #include<fstream>
 #include<string>
-#include<cstdlib>
-#include<ctime>
-#include<stack>
 using namespace std;
 
+void escribirArchivoClientes(ofstream& archivo, Lista<Cliente<string>*>* l_clientes, int cont)
+{
+	if (l_clientes->longitud() > cont)
+	{
+		archivo << l_clientes->obtenerPos(cont)->toString();
+		archivo << "\n--------------------------------\n";
+		escribirArchivoClientes(archivo, l_clientes, cont + 1);
+	}
+}
+
+void escribirArchivoPrestamos(ofstream& archivo, Lista<Prestamo<string>*>* l_prestamos, int cont)
+{
+	if (l_prestamos->longitud() > cont)
+	{
+		archivo << l_prestamos->obtenerPos(cont)->toString();
+		archivo << "\n--------------------------------\n";
+		escribirArchivoPrestamos(archivo, l_prestamos, cont + 1);
+	}
+}
 
 class Banco
 {
@@ -200,11 +216,7 @@ public:
 			ofstream archivo("Clientes.txt", ios::out);
 			if (archivo.is_open())
 			{
-				for (int i = 0; i < l_clientes->longitud(); i++)
-				{
-					archivo << l_clientes->obtenerPos(i)->toString();
-					archivo << "\n--------------------------------\n";
-				}
+				escribirArchivoClientes(archivo, l_clientes, 0);
 				archivo.close();
 			}
 			else
@@ -215,11 +227,7 @@ public:
 			ofstream archivo2("Prestamos.txt", ios::out);
 			if (archivo2.is_open())
 			{
-				for (int i = 0; i < l_prestamos->longitud(); i++)
-				{
-					archivo2 << l_prestamos->obtenerPos(i)->toString();
-					archivo2 << "\n--------------------------------\n";
-				}
+				escribirArchivoPrestamos(archivo2, l_prestamos, 0);
 
 				archivo2.close();
 			}
