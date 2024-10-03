@@ -1,0 +1,88 @@
+Codigo: C1
+Nombre: Juan
+Apellido: Lopez
+Sexo: M
+Estado civil: S
+Tipo cliente: O
+
+--------------------------------
+Codigo: C2
+Nombre: Pedro
+Apellido: Gonzalez
+Sexo: M
+Estado civil: V
+Tipo cliente: N
+
+--------------------------------
+Codigo: C3
+Nombre: Maria
+Apellido: Gonzalez
+Sexo: F
+Estado civil: S
+Tipo cliente: P
+
+--------------------------------
+Codigo: C4
+Nombre: Maria
+Apellido: Gonzalez
+Sexo: F
+Estado civil: S
+Tipo cliente: P
+
+--------------------------------
+Codigo: C5
+Nombre: Pedro
+Apellido: Gomez
+Sexo: M
+Estado civil: V
+Tipo cliente: O
+
+--------------------------------
+Codigo: C6
+Nombre: Ana
+Apellido: Perez
+Sexo: F
+Estado civil: S
+Tipo cliente: P
+
+--------------------------------
+Codigo: C7
+Nombre: Juan
+Apellido: Lopez
+Sexo: M
+Estado civil: C
+Tipo cliente: V
+
+--------------------------------
+Codigo: C8
+Nombre: Maria
+Apellido: Gomez
+Sexo: F
+Estado civil: C
+Tipo cliente: P
+
+--------------------------------
+Codigo: C9
+Nombre: Pedro
+Apellido: Lopez
+Sexo: M
+Estado civil: C
+Tipo cliente: V
+
+--------------------------------
+Codigo: C10
+Nombre: Juan
+Apellido: Perez
+Sexo: M
+Estado civil: C
+Tipo cliente: N
+
+--------------------------------
+Codigo: C11
+Nombre: Juan
+Apellido: Gomez
+Sexo: M
+Estado civil: V
+Tipo cliente: N
+
+--------------------------------

@@ -1,0 +1,66 @@
+Codigo prestamo: P1
+Cliente: Juan
+Monto: 767
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P2
+Cliente: Pedro
+Monto: 1422
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P3
+Cliente: Maria
+Monto: 1074
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P4
+Cliente: Maria
+Monto: 528
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P5
+Cliente: Pedro
+Monto: 684
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P6
+Cliente: Ana
+Monto: 857
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P7
+Cliente: Juan
+Monto: 1184
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P8
+Cliente: Maria
+Monto: 1336
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P9
+Cliente: Pedro
+Monto: 1417
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P10
+Cliente: Juan
+Monto: 1453
+Fecha: 01/10/2024
+
+--------------------------------
+Codigo prestamo: P11
+Cliente: Juan
+Monto: 932
+Fecha: 01/10/2024
+
+--------------------------------
